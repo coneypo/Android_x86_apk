@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hvac"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#273b66"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_top_home"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="40px"
+            android:text="Home">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_top_music"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="40px"
+            android:text="Music">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_top_HVAC"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="40px"
+            android:text="HVAC">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_top_NAVI"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="40px"
+            android:text="NAVI">
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Hot">
+        </TextView>
+        <SeekBar
+            android:id="@+id/progress_hvac_hot"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="224dp"
+            android:layout_height="33dp"
+            android:min="0"
+            android:max="100"
+            android:progress="20"
+            android:progressDrawable="@drawable/progressbar_hvac_h">
+        </SeekBar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Cold">
+        </TextView>
+        <SeekBar
+            android:id="@+id/progress_hvac_cold"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="224dp"
+            android:layout_height="33dp"
+            android:max="100"
+            android:progress="50"
+            android:progressDrawable="@drawable/progressbar_hvac_h">
+        </SeekBar>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

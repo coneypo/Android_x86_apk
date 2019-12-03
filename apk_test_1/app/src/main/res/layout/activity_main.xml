@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#273b66"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_top_home"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="40px"
+            android:text="Home">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_top_music"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="40px"
+            android:text="Music">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_top_HVAC"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="40px"
+            android:text="HVAC">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_top_NAVI"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="40px"
+            android:text="NAVI">
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp">
+        <Button
+            android:id="@+id/btn_icon_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="150px"
+            android:text="Phone"
+            android:background="@drawable/phone_40px"
+            android:layout_margin="20dp">
+        </Button>
+        <Button
+            android:id="@+id/btn_icon_hvac"
+            android:layout_width="wrap_content"
+            android:layout_height="150px"
+            android:text="HVAC"
+            android:background="@drawable/hvac_40px"
+            android:layout_margin="20dp">
+        </Button>
+        <Button
+            android:id="@+id/btn_icon_music"
+            android:layout_width="wrap_content"
+            android:layout_height="150px"
+            android:text="Music"
+            android:background="@drawable/music_40px"
+            android:layout_margin="20dp">
+        </Button>
+        <Button
+            android:id="@+id/btn_icon_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="150px"
+            android:text="Setting"
+            android:background="@drawable/setting_40px"
+            android:layout_margin="20dp">
+        </Button>
+    </LinearLayout>
+</LinearLayout>
