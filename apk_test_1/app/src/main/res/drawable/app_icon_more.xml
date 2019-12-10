@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android">
+
+<layer-list>
+    <item>
+    <shape
+        android:shape="oval">
+        <solid android:color="#000000">
+        </solid>
+        <size android:width="150dp"
+            android:height="150dp"></size>
+    </shape>
+    </item>
+    <item android:drawable="@drawable/more_120px"
+        android:height="80dp"
+        android:width="80dp"
+        android:gravity="center"></item>
+</layer-list>
+</rotate>

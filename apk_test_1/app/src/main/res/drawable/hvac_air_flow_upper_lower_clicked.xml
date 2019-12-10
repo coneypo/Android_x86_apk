@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <layer-list>
+        <item>
+            <shape
+                android:shape="rectangle">
+                <solid android:color="#808080"/>
+
+                <size android:width="160dp"
+                    android:height="120dp"/>
+                <corners android:radius="20dp"/>
+            </shape>
+        </item>
+
+        <item android:drawable="@drawable/air_flow_upper_and_lower_car_symbol_in_white"
+            android:height="60dp"
+            android:width="60dp"
+            android:gravity="center"/>
+    </layer-list>
+</rotate>
